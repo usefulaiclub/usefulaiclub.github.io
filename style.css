@@ -33,8 +33,11 @@ a.mark{font-size:var(--s-lg);letter-spacing:-.01em}
 .promise{margin-top:2.5rem;padding:1.5rem 1.25rem;border-radius:1rem;background:var(--card);border:1px solid var(--line)}
 .promise h2{margin:0 0 1rem;font-size:var(--s-xl)}
 .promise ol{list-style:none;margin:0;padding:0;counter-reset:p;display:grid;gap:.85rem}
-.promise li{counter-increment:p;position:relative;padding-left:2.25rem;margin:0}
-.promise li::before{content:counter(p);position:absolute;left:0;top:.1em;font:700 var(--s-xl)/1 var(--serif);color:var(--accent)}
+.promise ol li{counter-increment:p;position:relative;padding-left:2.25rem;margin:0}
+.app ul{margin:0 0 1rem;padding-left:1.2rem}
+.app p{margin:0 0 1rem}
+.app p:last-child{margin-bottom:0}
+.promise ol li::before{content:counter(p);position:absolute;left:0;top:.1em;font:700 var(--s-xl)/1 var(--serif);color:var(--accent)}
 footer{padding-block:1.5rem 2.5rem;border-top:1px solid var(--line);color:var(--muted);font-size:var(--s-sm)}
 footer p{margin:.5rem 0}
 footer nav a{margin-right:1.25rem}
